@@ -1,8 +1,8 @@
 " Vim syntax file
-" Language:	JScript (ASP)
+" Language:	Microsoft JScript 
 " Maintainer:	Robert Melton <rmelton@metacosm.dhs.org>
-" URL:		http://metacosm.dhs.org/useful/jscript.vim
-" Last Change:	2001 Aug 24
+" URL:		http://fastfoodsoftware.com/aspjscript.zip
+" Last Change:	2004 May 28
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded

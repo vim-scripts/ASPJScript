@@ -1,8 +1,8 @@
 " Vim syntax file
-" Language:	Microsoft JScript JScript (ASP)
-" Maintainer: Robert Melton <rmelton@metacosm.dhs.org>
-" URL:		http://metacosm.dhs.org/useful/aspjscript.vim
-" Last Change:	2001 May 09
+" Language:	Microsoft ASP ( /w JScript)
+" Maintainer:   Robert Melton <rmelton@metacosm.dhs.org>
+" URL:		http://fastfoodsoftware.com/aspjscript.zip
+" Last Change:	2004 May 28
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -17,7 +17,7 @@ if !exists("main_syntax")
 endif
 
 if version < 600
-  so <sfile>:p:h/html.vim
+  so <sfile>:p:h/xhtml.vim
   syn include @AspJScriptScript <sfile>:p:h/jscript.vim
 else
   runtime! syntax/html.vim
